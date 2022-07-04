@@ -1,0 +1,58 @@
+:root {
+    --background: #242424;
+    --backgroundCard: #4f4f4fc1;
+    --border: #ef8412;
+    --letters: white;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--background);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#card {
+    width: 600px;
+    height: 400px;
+    background-color: var(--backgroundCard);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    border-radius: 30px;
+    line-height: 2;
+}
+
+label {
+    color: var(--letters);
+    font-size: 50px;
+    font-weight: 700;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    outline-color: var(--border)
+}
+
+#border {
+    width: 200px;
+    height: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--border);
+
+    color: var(--letters);
+    font-size: 20px;
+
+    margin-top: 20px;
+}
